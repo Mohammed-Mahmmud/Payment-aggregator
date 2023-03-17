@@ -35,9 +35,14 @@
 <div class="form mt-3">
  <div class="inputbox">
   </div> 
-  <div class="inputbox">  <i class="fa fa-eye"></i> </div> <div class="d-flex flex-row"> <div class="inputbox">  </div> <div class="inputbox">  </div> </div> <div class="px-5 pay"> <a href="{{ route('stripe.index') }}" class="btn btn-success btn-block">Add card</a> </div> </div> </div> </div> <div class="tab-pane fade" id="paypal" role="tabpanel" aria-labelledby="paypal-tab"> <div class="px-5 mt-5"> <div class="inputbox"><div class="text-center"> 
-	<h5>Pay with Credit card</h5> 
+  <div class="inputbox">  <i class="fa fa-eye"></i> </div> <div class="d-flex flex-row"> <div class="inputbox">  </div> <div class="inputbox">  </div> </div> <div class="px-5 pay"> <a href="{{ route('stripe.index') }}" class="btn btn-success btn-block">Add card</a> </div> </div> </div> </div> <div class="tab-pane fade" id="paypal" role="tabpanel" aria-labelledby="paypal-tab"> <div class="px-auto mt"> <div class="inputbox">
 
+
+		<div class="text-center"> 
+	<h5>Pay with Paypal</h5> 
+<br>
+</div> 
+<div>      </div>
 <a href="{{ route('payment') }}" class="btn btn-primary btn-block">Pay $100 from Paypal</a>
 </div>
 <style type="text/css">
